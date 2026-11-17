@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kauan-codigo-pratico.pages.dev/sitemap.xml
