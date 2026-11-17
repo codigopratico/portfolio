@@ -69,3 +69,11 @@ html[data-theme="light"] .portrait{box-shadow:10px 12px 0 -7px #e4e8fa,10px 12px
 
 /* Contrast follows the selected site theme, with no background tile. */
 .brandmark{display:flex;align-items:center;justify-content:center;width:64px;height:42px;overflow:hidden}.brandmark img{display:block;position:static;width:64px;height:64px;max-width:none;filter:brightness(1.75) saturate(.72);background:transparent}html[data-theme="light"] .brandmark img{filter:brightness(.92) saturate(1.1)}
+
+.brandmark picture{display:flex;align-items:center;justify-content:center;width:64px;height:42px}html[data-theme="light"] .brandmark img{content:url("./assets/logo-light.svg");filter:none}
+
+html[data-theme="light"] .brandmark img{content:url("./assets/logo-transparent.svg");filter:brightness(1.25) saturate(.9)}
+
+html[data-theme="light"] .brandmark img{content:url("./assets/logo-light.svg");filter:none}
+
+.brandmark img{position:static;width:64px;height:36px;filter:none;content:url("./assets/logo-clean-dark.svg")}html[data-theme="light"] .brandmark img{filter:none;content:url("./assets/logo-clean-light.svg")}
