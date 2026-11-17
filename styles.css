@@ -66,3 +66,6 @@ html[data-theme="light"] .btn.primary{background:linear-gradient(110deg,#7041cd,
 html[data-theme="light"] .portrait{box-shadow:10px 12px 0 -7px #e4e8fa,10px 12px 0 -6px #aeb9de,0 18px 40px rgba(37,48,105,.28)}
 
 .brandmark{width:64px;height:42px;overflow:visible}.brandmark img{position:static;width:64px;height:64px;max-width:100%;object-fit:contain;filter:brightness(1.25) drop-shadow(0 0 .4px #a38af1)}html[data-theme="light"] .brandmark img{filter:drop-shadow(0 0 .3px #3f2874)}
+
+/* Contrast follows the selected site theme, with no background tile. */
+.brandmark{display:flex;align-items:center;justify-content:center;width:64px;height:42px;overflow:hidden}.brandmark img{display:block;position:static;width:64px;height:64px;max-width:none;filter:brightness(1.75) saturate(.72);background:transparent}html[data-theme="light"] .brandmark img{filter:brightness(.92) saturate(1.1)}
