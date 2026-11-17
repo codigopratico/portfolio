@@ -77,3 +77,8 @@ html[data-theme="light"] .brandmark img{content:url("./assets/logo-transparent.s
 html[data-theme="light"] .brandmark img{content:url("./assets/logo-light.svg");filter:none}
 
 .brandmark img{position:static;width:64px;height:36px;filter:none;content:url("./assets/logo-clean-dark.svg")}html[data-theme="light"] .brandmark img{filter:none;content:url("./assets/logo-clean-light.svg")}
+
+/* Mobile navigation contrast in the light theme. */
+html[data-theme="light"] .menu{color:#26324d;background:#ffffff;border:1px solid #a7b4ce;box-shadow:0 2px 6px #26324d12}
+html[data-theme="light"] .menu:hover,html[data-theme="light"] .menu[aria-expanded="true"]{color:#4d2b96;background:#eee8ff;border-color:#8e74c5}
+html[data-theme="light"] .menu:focus-visible{outline:3px solid #6d3ac8;outline-offset:3px}
